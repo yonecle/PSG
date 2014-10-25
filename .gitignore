@@ -1,0 +1,9 @@
+*.[ao]
+a.out
+tags
+cscope.out
+cscope.files
+GTAGS
+GRTAGS
+GPATH
+.*.swp
