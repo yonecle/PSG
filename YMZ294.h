@@ -7,7 +7,7 @@ class YMZ294 : public PSG {
 public:
     YMZ294(byte wrcs_pin, byte a0_pin, byte reset_pin);
     YMZ294(byte wrcs_pin, byte a0_pin, byte reset_pin, RegisterSetter* setter);
-    
+
     virtual void preSetAddress();
     virtual void postSetAddress();
     virtual void preSetData();

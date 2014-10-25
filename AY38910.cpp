@@ -31,3 +31,5 @@ void AY38910::postSetData(){
     digitalWrite(BCDIR_PIN, LOW);
 }
 
+void AY38910::hardware_reset(){
+}

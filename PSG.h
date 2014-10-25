@@ -91,7 +91,7 @@ private:
     RegisterSetter* reg_setter;
 
     void param_reset(void);
-//    void hardware_reset(void);
+    virtual void hardware_reset(void) = 0;
 };
 
 #endif

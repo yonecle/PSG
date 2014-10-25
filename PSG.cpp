@@ -80,7 +80,7 @@ PSG::PSG(RegisterSetter* setter)
 void PSG::reset(void)
 {
     param_reset();
-//    hardware_reset();
+    hardware_reset();
 }
 
 // ------ Square Channel Functions ---------------------------------------- */

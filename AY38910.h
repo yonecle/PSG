@@ -16,14 +16,16 @@ public:
     AY38910(byte wrcs_pin, byte a0_pin);
     AY38910(byte wrcs_pin, byte a0_pin, RegisterSetter* setter);
     
-    virtual void preSetAddress();
-    virtual void postSetAddress();
-    virtual void preSetData();
-    virtual void postSetData();
+    void preSetAddress();
+    void postSetAddress();
+    void preSetData();
+    void postSetData();
     
 private:
     const byte BC1_PIN;
     const byte BCDIR_PIN;
+
+    void hardware_reset();
 };
 
 
